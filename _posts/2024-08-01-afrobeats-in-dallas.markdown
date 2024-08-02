@@ -15,8 +15,8 @@ keywords: ["Afrobeats in Dallas", "Dallas nightlife", "African music Dallas", "N
 Dallas has embraced the vibrant rhythms of Afrobeats, offering a variety of venues where you can experience this exciting genre throughout the week. Let's explore the Afrobeats scene in Dallas, day by day, starting with the weekend kickoff on Friday.
 
 <div class="image-row">
-<img src="/assets/1.png" alt="Afrobeats screenshot nightly traffic" width="48%">
-<img src="/assets/2.png" alt="Afrobeats screenshot nightly traffic" width="48%">
+<img src="{{ '/assets/1.png' | relative_url }}" alt="Afrobeats screenshot nightly traffic" width="48%">
+<img src="{{ '/assets/2.png' | relative_url }}" alt="Afrobeats screenshot nightly traffic" width="48%">
 </div>
 <br>
 [![Download Nightly Traffic](https://img.shields.io/badge/Download%20Now-Nightly%20Traffic-blue?style=for-the-badge)](https://downloadnightly.com)
