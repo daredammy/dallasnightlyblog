@@ -24,8 +24,8 @@ description: "Download Nightly Traffic and explore Dallas's vibrant Afrobeats sc
 #baseurl: "/blog" # the subpath of your site, e.g. /blog
 #url: "http://downloadnightly.com" # the base hostname & protocol for your site, e.g. http://example.com
 # local
-#url: "https://daredammy.github.io"
-baseurl: ""
+url: "https://daredammy.github.io"
+baseurl: "/dallasnightlyblog"
 twitter_username: nightlytraffic
 instagram_username: nightlytraffic
 linkedin_username: nightlytraffic
