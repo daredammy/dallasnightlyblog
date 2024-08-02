@@ -1,0 +1,97 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "Nightly Life in Dallas"
+email: dami@nightlytraffic.com
+description: "Download Nightly Traffic and explore Dallas's vibrant Afrobeats scene. Find top venues, events, and Nigerian cuisine for each day of the week. Experience the best of African nightlife in Dallas!"
+#baseurl: "/blog" # the subpath of your site, e.g. /blog
+#url: "http://downloadnightly.com" # the base hostname & protocol for your site, e.g. http://example.com
+# local
+url: "https://daredammy.github.io"
+baseurl: ""
+twitter_username: nightlytraffic
+instagram_username: nightlytraffic
+linkedin_username: nightlytraffic
+facebook_username: nightlytraffic
+name: Dami Dare
+
+# SEO-specific settings
+lang: en_US
+timezone: America/Chicago
+
+# Structured Data - SEO
+social:
+  name: Nightly Traffic
+  links:
+    - https://www.twitter.com/nightlytraffic
+    - https://www.instagram.com/nightlytraffic
+    - https://www.facebook.com/profile.php?id=61559897882507
+    - https://www.linkedin.com/company/99351626/ 
+    - https://www.tiktok.com/@nightlytraffic
+
+twitter:
+  username: nightlytraffic
+  card: summary_large_image
+
+
+facebook:
+  publisher: https://www.facebook.com/profile.php?id=61559897882507
+
+# Google Analytics
+google_analytics: G-418848485
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# Permalinks
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Additional settings
+show_excerpts: true
+excerpt_separator: <!--more-->
+
+sass:
+  sass_dir: _sass
+  style: compressed
